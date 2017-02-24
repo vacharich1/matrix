@@ -33,7 +33,7 @@ if ($result->num_rows > 0) {
 		$count=$count+1;
 		if($count==1)
 		{
-			$messages556=$messages556.$row["time"]."\n\n";
+			$messages556=$messages556."time : ".$row["time"]."\n\n";
 		}
 		
 		$messages556=$messages556.$count." ".$row["hoonname"]."  :  ".$row["volume"]."\n\n";
