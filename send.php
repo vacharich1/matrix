@@ -35,8 +35,10 @@ if ($result->num_rows > 0) {
 
 }
 
+$access_token = 'cIJquyPYcHQu8Vd6t8gbLxBb5sTw5uOfXP5YNVyuIMU90zyg9bIJQmkImmsi8XOwCD/jTF2Xc1Rn3b2jvP7NZIhmswcoblMv5pynyRzCcbM/UTwIgNSiLH6rcghfGCOp1D9C7k1bB6R8dHErBxVGmgdB04t89/1O/w1cDnyilFU=';
+
 $data = [
-			'replyToken' => $replyToken,
+			'to' => $USERID,
 			'messages' => [$messages556]
 		];
 $post = json_encode($data);
