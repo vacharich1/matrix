@@ -28,9 +28,7 @@ $sql1 = "SELECT * FROM `sendalert_store2` ORDER BY `hoonname` ASC";
 $result = $link->query($sql1);
 if ($result->num_rows > 0) {
 	while($row = $result->fetch_assoc()) {
-
 		$messages556=$messages556.$row["hoonname"]."  :  ".$row["volume"]."  ".$row["time"]."<br>";
-
 	}
 
 }
