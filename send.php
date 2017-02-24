@@ -39,7 +39,8 @@ $data = [
 			'to' => 'Ceb4e5bc4a707ef26cf665d828939323a',
 			'messages' => [$messages556]
 		];
-$post = json_encode($data);
+		
+$post_data = json_encode($data);
 $header = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
 
 echo "ssss";
