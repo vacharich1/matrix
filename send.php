@@ -31,7 +31,7 @@ if ($result->num_rows > 0) {
 	$messages556=$messages556."alert 3.2 store2\n\n";
 	while($row = $result->fetch_assoc()) {
 		$count=$count+1;
-		if(count==1)
+		if($count==1)
 		{
 			$messages556=$messages556.$row["time"]."\n\n";
 		}
