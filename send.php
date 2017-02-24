@@ -36,7 +36,7 @@ if ($result->num_rows > 0) {
 			$messages556=$messages556."time : ".$row["time"]."\n\n";
 		}
 		
-		$messages556=$messages556.$count." ".$row["hoonname"]."  :  ".$row["volume"]."\n\n";
+		$messages556=$messages556.$count." : ".$row["hoonname"]."  v ".$row["volume"]."\n\n";
 
 	}
 
