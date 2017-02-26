@@ -51,8 +51,8 @@ $access_token = 'cIJquyPYcHQu8Vd6t8gbLxBb5sTw5uOfXP5YNVyuIMU90zyg9bIJQmkImmsi8XO
 
 		
 $messages55 = ['type' => 'image',
-			   'originalContentUrl' => 'https://www.botbottest.club/test.jpg',
-			   'previewImageUrl' => 'https://www.botbottest.club/test.jpg'
+			   'originalContentUrl' => 'https://www.botbottest.club/test.png',
+			   'previewImageUrl' => 'https://www.botbottest.club/test.png'
 											 
 ];
 
