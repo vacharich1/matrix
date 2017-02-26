@@ -51,8 +51,8 @@ $access_token = 'cIJquyPYcHQu8Vd6t8gbLxBb5sTw5uOfXP5YNVyuIMU90zyg9bIJQmkImmsi8XO
 
 		
 $messages55 = ['type' => 'image',
-			   'originalContentUrl' => 'https://github.com/vacharich1/LINE-BOT-PHP-Starter/blob/master/golf-ball-clip-art-black-and-white-niX89GjAT3.gif',
-			   'previewImageUrl' => 'https://github.com/vacharich1/LINE-BOT-PHP-Starter/blob/master/golf-ball-clip-art-black-and-white-niX89GjAT3.gif'
+			   'originalContentUrl' => 'https://www.botbottest.club/test.png',
+			   'previewImageUrl' => 'https://www.botbottest.club/test.png'
 											 
 ];
 
