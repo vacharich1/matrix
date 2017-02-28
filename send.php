@@ -51,7 +51,7 @@ $access_token = 'cIJquyPYcHQu8Vd6t8gbLxBb5sTw5uOfXP5YNVyuIMU90zyg9bIJQmkImmsi8XO
 
 $data = [
 			'to' => 'Ub5f45b12f0f8f8a3a08e5b52ebbcc96b',
-			'messages' => [$messages556]
+			'messages' => [$format_text]
 ];
 		
 $header = array('Content-Type: application/json', 'Authorization: Bearer ' . $access_token);
